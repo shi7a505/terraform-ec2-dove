@@ -28,10 +28,3 @@ Enjoy automating your AWS infrastructure like a pro! 🌟
 - `ami.tf` – defines the Ubuntu AMI data source.  
 
 ---
-
-## Author
-**Mahmoud Shiha** – DevOps 
-
----
-
-Feel free to ⭐ the repo if you like it!
