@@ -1,30 +1,30 @@
 # Terraform EC2 Dove
 
-A hands-on project to spin up an **EC2 Instance** on AWS using **Terraform** with ease and security. 🚀  
-Deploy your infrastructure in seconds and manage it as code (IaC) without manual hassle.
+This is a small project to launch an **EC2 Instance** on AWS using **Terraform**.  
+It's mainly for learning and experimenting with **Infrastructure as Code (IaC)**.  
 
-## Features
-- ✅ Manage infrastructure using **Terraform**.
-- ✅ Launch a ready-to-use **EC2 Instance**.
-- ✅ Configure **Security Groups** for server protection.
-- ✅ Easy to customize for any new project.
-- ✅ Quickly test and deploy cloud environments.
-- ✅ Perfect for learning and practicing **DevOps skills**.
+## What it does
+- Creates an **EC2 instance** ready to use.  
+- Sets up **security groups** for SSH and HTTP access.  
+- Manages your **AWS key pair** for secure login.  
 
-## Usage
-1. `terraform init`  
-2. `terraform plan`  
-3. `terraform apply -auto-approve`  
+## How to use
+1. Clone the repo.  
+2. Run `terraform init`.  
+3. Run `terraform plan`.  
+4. Run `terraform apply -auto-approve`.  
 
-Enjoy automating your AWS infrastructure like a pro! 🌟
+And that's it! Your EC2 instance will be up and running. 🚀
 
----
-
-## Project Structure
-- `instance.tf` – defines the EC2 instance.  
-- `provider.tf` – sets up the AWS provider.  
-- `keypair.tf` – manages the SSH key pair.  
-- `Secgroup.tf` – sets up security groups and rules.  
-- `ami.tf` – defines the Ubuntu AMI data source.  
+## Files
+- `instance.tf` – EC2 instance definition.  
+- `provider.tf` – AWS provider configuration.  
+- `keypair.tf` – SSH key pair management.  
+- `Secgroup.tf` – Security groups setup.  
+- `ami.tf` – Ubuntu AMI data source.
 
 ---
+
+## Author
+**Mahmoud Shiha** 
+
