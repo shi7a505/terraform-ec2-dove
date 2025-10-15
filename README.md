@@ -14,7 +14,7 @@ It's mainly for learning and experimenting with **Infrastructure as Code (IaC)**
 3. Run `terraform plan`.  
 4. Run `terraform apply -auto-approve`.  
 
-And that's it! Your EC2 instance will be up and running. 🚀
+And that's it! Your EC2 instance will be up and running. 
 
 ## Files
 - `instance.tf` – EC2 instance definition.  
